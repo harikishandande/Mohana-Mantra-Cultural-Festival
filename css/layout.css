@@ -1,0 +1,31 @@
+/*
+Theme Name: Responsive site launch 
+Theme URI: http://www.ansonika.com/responsive_site_launch/
+Description: Responsive site launch is created by <a href="http://www.ansonika.com">Ansonika</a>.
+Version: 1.0.0
+Author: Ansonika
+Author URI: http://themeforest.net/user/Ansonika/
+
+CSS STRUCTURE:
+
+1. SITE STRUCTURE
+2. MEDIA QUERIES
+
+/*============================================================================================*/
+/* 1. SITE STRUCTURE */
+/*============================================================================================*/
+/* Counter style ------------------------*/
+.hasCountdown {}
+.countdown_rtl {direction: rtl;}
+.countdown_holding span {}
+.countdown_row {clear: both;width: 100%;padding: 0;text-align: center;}
+.countdown_show1 .countdown_section {width: 98%;}
+.countdown_show2 .countdown_section {width: 48%;}
+.countdown_show3 .countdown_section {width: 32.5%;}
+.countdown_show4 .countdown_section {width: 24.5%;}
+.countdown_show5 .countdown_section {width: 19.5%;}
+.countdown_show6 .countdown_section {width: 16.25%;}
+.countdown_show7 .countdown_section {width: 14%;}
+.countdown_section {display: block;padding-top:55px;text-align: center;background: url(../img/bg_number.png) no-repeat center top;height:180px;margin-bottom:0;}
+.countdown_amount {font-size:80px;color:#fff;font-weight:700;text-shadow:3px 3px 5px rgba(0,0,0,.9);letter-spacing:-1px;}
+.count_titles {margin-top:10px;display:block;font-size:18px;color:#fff;font-weight:300;}
